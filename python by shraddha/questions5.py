@@ -11,10 +11,10 @@ while i != len(a):
     """
 b = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
 i = 0 
-x = 25
+x = 36
 
 while i != len(b):
     if b[i] == x:
         print('element found at index ', i)
-        break
+        print('found')
     i = i + 1
